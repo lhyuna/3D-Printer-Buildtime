@@ -1,10 +1,9 @@
 # 3D-Printer-Buildtime
 
+# Resulting Video
 
-#Resulting Video
+# Downloading Pre-trained Weights
 
-#Downloading Pre-trained Weights
+# Getting Started
 
-#Getting Started
-
-#Running the Tracker with YOLOv4-deepsort
+# Running the Tracker with YOLOv4-deepsort
