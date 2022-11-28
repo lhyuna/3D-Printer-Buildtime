@@ -39,11 +39,11 @@ python save_model.py —model yolov4'
 python object_tracker.py --video 0 --output ./outputs/webcam.avi —model yolov4'
 
 ## 원본 코드와 차이점
-line 101~105 – extruder 초기 위치 지정
-line 107~110 – 시작, 종료시간 변수 정의
-line 112~113 – 측정 시간 확인을 위한 변수 정의
-line 185 – class name 지정
-line 226~227 – extruder 초기 위치 선 그리기
-line 245~246 – 중심점(좌표) 계산
-line 249~268 – 출력 시간 측정 및 log 파일 저장
-line 271~276 – 추적 객체 좌표값 info 표시 및 log 파일 저장
+*line 101~105 – extruder 초기 위치 지정
+*line 107~110 – 시작, 종료시간 변수 정의
+*line 112~113 – 측정 시간 확인을 위한 변수 정의
+*line 185 – class name 지정
+*line 226~227 – extruder 초기 위치 선 그리기
+*line 245~246 – 중심점(좌표) 계산
+*line 249~268 – 출력 시간 측정 및 log 파일 저장
+*line 271~276 – 추적 객체 좌표값 info 표시 및 log 파일 저장
