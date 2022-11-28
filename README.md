@@ -12,33 +12,38 @@ darknet을 통해 추적할 객체의 이미지를 학습하여 가중치 파일
 
 Anaconda를 통해 CPU or GPU를 이용한다.
 Conda
-
+'''
   Tensorflow CPU
   conda env create -f conda-cpu.yml
   conda activate yolov4-cpu
-
+'''
+'''
   Tensorflow GPU
   conda env create -f conda-gpu.yml
   conda activate yolov4-gpu
-
+'''
 Pip
-
+'''
   TensorFlow CPU
   pip install -r requirements.txt
-
+'''
+'''
   TensorFlow GPU
   pip install –r requirements-gpu.txt
+'''
 
 ## Running the Tracker with YOLOv4-deepsort
 먼저 weights파일을 tensorflow 모델로 변환한다.
-
+'''
   Convert darknet weights to tensorflow model
   python save_model.py —model yolov4
+'''
 
 다음으로 object_tracker.py를 실행하여 yolov4, deepsort 및 tensorflow로 객체 추적을 진행하고, 출력 시간을 측정한다.
-
+'''
   webcamvi
   python object_tracker.py --video 0 --output ./outputs/webcam.avi —model yolov4
+'''
 
 ## 원본 코드와 차이점
 *line 101~105 – extruder 초기 위치 지정
