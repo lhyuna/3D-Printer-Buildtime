@@ -12,12 +12,12 @@ darknet을 통해 추적할 객체의 이미지를 학습하여 가중치 파일
 
 Anaconda를 통해 CPU or GPU를 이용한다.
 Conda
-'''
+'''python
   Tensorflow CPU
   conda env create -f conda-cpu.yml
   conda activate yolov4-cpu
 '''
-'''
+'''python
   Tensorflow GPU
   conda env create -f conda-gpu.yml
   conda activate yolov4-gpu
