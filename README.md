@@ -6,13 +6,18 @@ yolov4-deepsort를 이용하여 3D 프린터의 실제 출력 시간을 측정�
 
 ## Downloading Pre-trained Weights
 darknet을 통해 추적할 객체의 이미지를 학습하여 가중치 파일(.weights)을 얻는다.
-다운로드 링크로 연결된 ‘yolov4.weights’ 파일은 Flashforge Creator3의 익스트루더를 학습시킨 미리 훈련된 가중치이다. yolov4.weights 파일을 yolov4_deepsort/data로 이동한다. 만약 다른 프린터의 객체를 추적하고자 한다면 새롭게 학습을 진행해야 한다.
+다운로드 링크로 연결된 ‘yolov4.weights’ 파일은 Flashforge Creator3의 익스트루더를 학습시킨 미리 훈련된 가중치이다. yolov4.weights 파일을 yolov4_deepsort/data로 이동한다.
+
+만약 다른 프린터의 객체를 추적하고자 한다면 새롭게 학습을 진행해야 한다.
 
 ## Getting Started
 3D 프린터 출력 시간 측정 시스템을 구현할 수 있는 ‘object_tracker.py’ 파일을  yolov4_deepsort로 이동한다.
 
+이때, 카메라의 위치에 따라 익스트루더의 위치가 변화할 경우 line 101에서 초기 위치를 변경해 주어야 한다.
+
 Anaconda를 통해 CPU or GPU를 이용한다.
-Conda
+
++ Conda
 
 ```
 # Tensorflow CPU
@@ -26,7 +31,7 @@ conda env create -f conda-gpu.yml
 conda activate yolov4-gpu
 ```
 
-Pip
++ Pip
 
 ```
 # TensorFlow CPU
