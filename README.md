@@ -2,6 +2,7 @@
 yolov4-deepsort를 이용하여 3D 프린터의 실제 출력 시간을 측정한다. 3D 프린터의 익스트루더를 객체 추적하여 데이터를 얻는다. 
 
 ## Resulting Video
+![3Dprinter](https://user-images.githubusercontent.com/98510376/204823446-335aaf00-2dbc-4ecf-8e2b-bd622c4569f5.gif)
 
 ## Downloading Pre-trained Weights
 darknet을 통해 추적할 객체의 이미지를 학습하여 가중치 파일(.weights)을 얻는다.
