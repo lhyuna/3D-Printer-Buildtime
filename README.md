@@ -10,6 +10,8 @@ darknet을 통해 추적할 객체의 이미지를 학습하여 가중치 파일
 
 만약 다른 프린터의 객체를 추적하고자 한다면 새롭게 학습을 진행해야 한다.
 
++ [다운로드](https://drive.google.com/file/d/1PkZwGka0YJuydM6Lor-N7R7yNGs6T1v-/view?usp=share_link)
+
 ## Getting Started
 3D 프린터 출력 시간 측정 시스템을 구현할 수 있는 ‘object_tracker.py’ 파일을  yolov4_deepsort로 이동한다.
 
